@@ -3,3 +3,15 @@
 // 引数valueに型注釈してください
 
 const greeting = (value: string) => "hello!" + value
+
+
+type Cat = { name: string, purrs: boolean }
+type Dog = { name: string, barks: boolean, wags: boolean }
+
+type CatAndDog = Cat | Dog;
+
+let a: CatAndDog = {
+  name: 'daichi',
+  purrs: true,
+  wags :true,
+}
