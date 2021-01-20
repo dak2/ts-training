@@ -2,7 +2,7 @@
 //     foo: string;
 //     bar: number;
 // }
-// const E:F = { foo: "fafa", bar: "fafa"} //Error
+// const E:F = { foo: "fafa", bar: "fafa" } //Error
 // 定義元のFを直接編集せずに代入できるように型付けしてください
 
 // Ans
