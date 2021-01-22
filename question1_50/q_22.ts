@@ -7,8 +7,8 @@
 
 // Ans
 type F = {
-    foo: string;
-    bar: number;
+	foo: string;
+	bar: number;
 }
 const E:F = { foo: "fafa", bar: "fafa" as any }
 // -> any良くない
