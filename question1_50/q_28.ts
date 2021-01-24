@@ -15,7 +15,7 @@ const test = (b:NotHumman) => {
 // しかし、渡される引数がAnimal or Birdのどちらか分からないから
 
 // 回答例
-const b = (b: NotHumman) => {
+const c = (b: NotHumman) => {
   if ("run" in b) { // animalであることが確定する
       b.run
   } else {

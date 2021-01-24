@@ -15,6 +15,3 @@ function a(o = { name: "sample" }){
 
 a(o)
 a();
-
-
-

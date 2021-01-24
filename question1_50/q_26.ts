@@ -29,9 +29,9 @@ const isAppUser = (o: any): o is AppUser => {
 }
 
 type O = ServiceUser | User | AppUser;
-function a(o: any){
+function b(o: any){
   if(isService(o)) return o.serviceID;
   if(isAppUser(o)) return o.appID;
   return o.id; // User
 }
-const resul = a(serviceUser1)
+const resul = b(serviceUser1)
