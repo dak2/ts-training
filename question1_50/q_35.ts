@@ -3,10 +3,9 @@ interface MyObj {
   age: number | undefined;
 }
 
-let myObj: MyObj = {
-  name: "kenji",
-  age: null
-};
+// let myObj: MyObj = {
+//   name: "kenji"
+// };
 
 // 上記はErrorになります。なぜですか。また正しく修正してください
 
