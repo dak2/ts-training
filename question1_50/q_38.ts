@@ -12,7 +12,7 @@ interface UserSettings {
 // 再帰的に各プロパティをオプショナルにした型を定義してください
 
 type RecursivePartial<T> = {
-  [P in keyof T] ? : T[P] extends (infer U)[] ? RecursivePartial<U>[] : T[P] extends object ? RecursivePartial<T[P]> : T[P];
+  [K in keyof T] ? : T[K] extends (infer U)[] ? RecursivePartial<U>[] : T[K] extends object ? RecursivePartial<T[K]> : T[K];
 };
 
 let opt: RecursivePartial<UserSettings> = {
