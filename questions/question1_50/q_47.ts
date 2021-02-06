@@ -10,4 +10,4 @@ function stringLiterals<T extends string>(...args: T[]): T[] { return args; }
 type OneOf<T extends unknown[]> = T extends (infer R)[] ? R : never;
 
 const values2 = stringLiterals('A', 'B');
-type Foo2 = OneOf<typeof values2>;
+type Foo47 = OneOf<typeof values2>;
